@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* at first didn’t know how to render the title on a unordered list, then i have looked online and 
-  i have found the Fisher-Yates algorithm witch i actually didn’t know before. Then i have create a Function to shuffle an array using it with a for loop  */
+    i have found the Fisher-Yates algorithm witch i actually didn’t know before. Then i have create a Function to shuffle an array using it with a for loop  */
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
