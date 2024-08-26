@@ -1,0 +1,26 @@
+/* src/components/NameList.css */
+.name-list-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  li {
+    background-color: #ffffff; /* White background for each list item */
+    border: 1px solid #ddd; /* Light border for each list item */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside each list item */
+    margin: 5px 0; /* Space between list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 18px; /* Larger font size for better readability */
+  }
+  
