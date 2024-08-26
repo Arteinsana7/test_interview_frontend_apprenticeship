@@ -4,6 +4,7 @@ import "./App.css"; // Optional: if you have custom styles
 import Greeting from "./components/Greeting"; // Import the Greeting component
 import Counter from "./components/Counter";
 import ListRendering from "./components/ListRendering";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const names = ["Alice", "Bob", "Charlie", "David"]; // Define the array of names
 
