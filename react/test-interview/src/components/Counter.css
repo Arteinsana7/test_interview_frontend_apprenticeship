@@ -1,49 +1,46 @@
-/* src/components/Counter.css */
-
-/* Center align the counter and add margin */
 .counter-container {
     text-align: center;
-    margin-top: 20px;
+    margin: 0; 
+ 
   }
-  
   /* Style the count heading */
   .counter-heading {
-    font-size: 2.5rem;
+    font-size: 2rem; 
     color: #333;
     margin-bottom: 20px;
   }
   
   /* Base styles for the buttons */
   .counter-button {
-    margin: 10px;
-    padding: 20px 40px; /* Larger size */
-    font-size: 1.5rem;
-    width: 250px; /* Ensure both buttons have the same width */
+    margin: 5px; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    width: auto; 
     border: none;
-    border-radius: 10px;
+    border-radius: 5px; 
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
   }
   
   /* Top button: green with hover effect */
   .increment-button {
-    background-color: #28a745; /* Green color */
+    background-color: #28a745; 
     color: white;
   }
   
   .increment-button:hover {
-    background-color: #218838; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #1a6c2c; 
+    
   }
   
   /* Bottom button: red with hover effect */
   .decrement-button {
-    background-color: #dc3545; /* Red color */
+    background-color: #dc3545; 
     color: white;
   }
   
   .decrement-button:hover {
-    background-color: #c82333; /* Darker red on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #860915; 
+    
   }
   

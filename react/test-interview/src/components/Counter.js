@@ -17,12 +17,12 @@ const Counter = () => {
       <h1 className="counter-heading">Count: {count}</h1>
       <div>
         <button className="counter-button increment-button" onClick={increment}>
-          Increment
+          Increment +
         </button>
       </div>
       <div>
         <button className="counter-button decrement-button" onClick={decrement}>
-          Decrement
+          Decrement -
         </button>
       </div>
     </div>

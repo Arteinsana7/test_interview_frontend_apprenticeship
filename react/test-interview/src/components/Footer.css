@@ -1,0 +1,25 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    min-height: 6vh;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; /* Space between items */
+  }
+  
+  .footer p  {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+  
+  .footer .date-time {
+    font-size: 0.875rem; /* Smaller font size for date/time */
+  }
+  
