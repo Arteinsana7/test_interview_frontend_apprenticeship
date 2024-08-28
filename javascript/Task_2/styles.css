@@ -19,7 +19,7 @@ button {
     transition: background-color 0.3s ease; 
 }
 
-/* Hover effect */
+/* Hover effect color change */
 button:hover {
     background-color: #049e2d; /* color change when hover */
 }
