@@ -1,5 +1,5 @@
 import React from "react";
-import "../ListRendering.css";
+import "../name-list.css";
 
 const ListRendering = ({ names }) => {
   return (
